@@ -2,22 +2,22 @@
   "//1": "describes your app and its dependencies",
   "//2": "https://docs.npmjs.com/files/package.json",
   "//3": "updating this file will download and update your packages",
-
-  "name": "my-glitch-app",
+  "name": "fcc3-header-parser",
   "version": "0.0.1",
-  "description": "What am I about?",
+  "description": "Gives information about your browser request",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "getos": "^3.0.1"
   },
   "engines": {
     "node": "8.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/welcome-project"
+    "url": "https://fcc3-header-parser.glitch.me"
   },
   "license": "MIT",
   "keywords": [
